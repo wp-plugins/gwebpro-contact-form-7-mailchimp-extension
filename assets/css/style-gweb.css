@@ -1,0 +1,19 @@
+/*
+	Author Name: Gwebpro
+	Plugin Name: Contact Form 7 Campaign Monitor Extension
+	Plugin URI: http://test.com/
+*/
+
+a.helping-hand {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+a.helping-hand:hover {
+	text-decoration: underline;
+}
+
+.bg-color input{border:1px solid #999;background-color:#FFFFA4;}
