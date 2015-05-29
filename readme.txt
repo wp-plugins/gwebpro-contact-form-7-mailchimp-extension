@@ -27,7 +27,7 @@ This Plugin supports multiple MailChimp mailing lists. All you have to do is sep
 * Just a checkbox to sync contact with MailChimp.
 * Easy to send additional values to MailChimp along with name and email.
 * Latest Stable MailChimp API V2.0 is used.
-* Regular updated.
+* Regularly updated.
 
 = Why Use This Plugin =
 
