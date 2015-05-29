@@ -14,7 +14,7 @@ define( 'GWEBPRO_MCE_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 define( 'GWEBPRO_MCE_PLUGIN_NAME', trim( dirname( GWEBPRO_MCE_PLUGIN_BASENAME ), '/' ) );
 define( 'GWEBPRO_MCE_PLUGIN_DIR', untrailingslashit( dirname( __FILE__ ) ) );
 define( 'GWEBPRO_MCE_PLUGIN_URL', untrailingslashit( plugins_url( '', __FILE__ ) ) );
-
+register_activation_hook( __FILE__ ,'gweb_cf7_chm');
 require_once( GWEBPRO_MCE_PLUGIN_DIR . '/lib/functions.php' );
 require_once( GWEBPRO_MCE_PLUGIN_DIR . '/lib/enqueue.php' );
 

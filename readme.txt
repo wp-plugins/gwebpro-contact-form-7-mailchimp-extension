@@ -12,19 +12,19 @@ A Simple plugin to syncronize email subscribers with MailChimp using Contact For
 
 == Description ==
 
-The GwebPro Contact Form 7 Mailchimp Extention is a newly developed Plugin by the developer team of [GwebPro](http://www.gwebpro.com/).This plugin is a easy way to integrate MailChimp with Contact Form 7. Contact details will be added to predetermined MailChimp list automatically when someone submit contact form 7. 
+The GwebPro Contact Form 7 MailChimp Extension is a newly developed Plugin by the developing team of [G Web Pro](http://www.gwebpro.com/).This Plugin is a easy way to integrate MailChimp with Contact Form 7. Contact details will be added to pre-determined MailChimp list automatically when someone submits contact form 7. 
 
-If a user selects subscription checkbox the user contact details will be syncronized in Mailchimp list. So it will be very easy to send newsletter to all the subscribers by selecting the list Mailchimp. 
+If a user selects the subscription checkbox the user contact details will be synchronized in MailChimp list. So it will be very easy to send newsletters to all the subscribers by selecting the list MailChimp.
 
-This plugin supports multiple MailChimp mailing lists. All you have to do is seperate each key with comma.
+This Plugin supports multiple MailChimp mailing lists. All you have to do is separate each key with comma.
 
 
 = Key Features =
 
-* Easy to intigrate with Contact Form 7.
+* Easy to integrate with Contact Form 7.
 * Use different mailing list per contact form.
-* Multiple Mailchimp intregration in seperate forms.
-* Just a checkbox to sync contact with Mailchimp.
+* Multiple MailChimp integration in separate forms.
+* Just a checkbox to sync contact with MailChimp.
 * Easy to send additional values to MailChimp along with name and email.
 * Latest Stable MailChimp API V2.0 is used.
 * Regular updated.
@@ -39,9 +39,9 @@ This plugin supports multiple MailChimp mailing lists. All you have to do is sep
 = Requirements =
 
 1. PHP 5.3.0 or greater
-1. WP instalation (3.9 or higher)
-2. Contact Form 7 (4.0 or higher)
-3. MailChimp account 
+2. WP installation (3.9 or higher)
+3. Contact Form 7 (4.0 or higher)
+4. MailChimp account 
 
 = Support =
 
@@ -58,7 +58,7 @@ For basic usage, you can also have a look at the [Gwebpro Contact Form 7 Mailchi
 
 == Frequently Asked Questions ==
 
-Do you have questions or issues with Gwebpro Ccontact Form 7 MailChimp Extension? Use these support channels appropriately.
+Do you have questions or issues with Gwebpro Contact Form 7 MailChimp Extension? Use these support channels appropriately.
 
 1. [Gwebpro Contact Form 7 MailChimp Extension Docs](http://www.gwebpro.com/gwebpro-mailchimp-cf7-extension)
 

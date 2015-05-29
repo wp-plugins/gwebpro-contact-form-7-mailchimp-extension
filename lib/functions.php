@@ -1,24 +1,4 @@
 <?php
-// error_reporting(E_ALL);
-// ini_set("display_errors", 1);
-// the rest of your script...
-
-function gweb_cf7_chm()
-{
-	$count = get_option('cf7_count');
-	
-	if($count=='MQ==' || empty($count))
-	{
-		update_option( 'cf7_count','MQ==' );
-	}
-	update_option( 'cf7_mch_end','MTU=' );
-	if(phpversion()<'5.3.0')
-	{
-		wp_die('Please upgrade you PHP instalation.This plugin only works with 5.3.0 or above PHP version');
-	}
-}
-register_activation_hook( __FILE__ ,'gweb_free_count');
-
 function wpcf7_mch_save_mailchimp($args) {
 	update_option( 'cf7_mch_'.$args->id, $_POST['wpcf7-mailchimp'] );
 }
@@ -122,7 +102,20 @@ function wpcf7_mch_add_mailchimp($args) {
 <?php
 
 }
-
+function gweb_cf7_chm()
+{
+	$count = get_option('cf7_count');
+	
+	if($count=='MQ==' || empty($count))
+	{
+		update_option( 'cf7_count','MQ==' );
+	}
+	update_option( 'cf7_mch_end','MTU=' );
+	if(phpversion()<'5.3.0')
+	{
+		wp_die('Please upgrade you PHP instalation.This plugin only works with 5.3.0 or above PHP version');
+	}
+}
 $end = get_option('cf7_mch_end');
 $count = get_option('cf7_count');
 if(base64_decode($count)<base64_decode($end) && !empty($end))
@@ -214,16 +207,6 @@ function wpcf7_mch_subscribe($obj)
 						'send_welcome'      => false,
 					));
 			
-	        		/*$listid = trim($listarr[0]);
-	        		$result = $wrap->lists->subscribe($listid,
-	                array('email'=>$email),
-	                $merge_vars,
-	                false,
-	                true,
-	                false,
-	                false
-	               );*/
-
 				}
 			 } catch (Exception $e)
 			 {
@@ -273,12 +256,12 @@ function gweb_mce_class_attr( $class ) {
 
 }
 
-/*add_filter('wpcf7_form_elements', 'gweb_mce_author_wpcf7', 100);
+add_filter('wpcf7_form_elements', 'gweb_mce_author_wpcf7', 100);
 function gweb_mce_author_wpcf7($mce_author) 
 {
 	$author_pre = 'Contact form 7 Mailchimp extension by ';
 	$author_name = 'Gwebpro';
-	$author_url = 'http://www.gwebprosales.com/';
+	$author_url = 'http://www.gwebpro.com/';
 	$author_title = 'Gwebpro - SEO Web Development Company';
 
 	$mce_author .= '<p class="wpcf7-display-none mailChimpExt-' . GWEBPRO_MCE_VERSION . '">';
@@ -294,7 +277,7 @@ function gweb_mce_author_wpcf7($mce_author)
 	return $mce_author;
 
 }
-*/
+
 add_action('admin_notices', 'wp_mc_admin_notice');
 
 function wp_mc_admin_notice()
