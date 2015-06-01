@@ -128,6 +128,7 @@ function wpcf7_mch_subscribe($obj)
 	$cf7_mch = get_option( 'cf7_mch_'.$obj->id() );
 	$submission = WPCF7_Submission::get_instance();
 
+	$count = get_option('cf7_count');
 	$count = base64_decode($count)+1;
 	update_option('cf7_count',base64_encode($count));
 	
