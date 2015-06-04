@@ -45,9 +45,9 @@ This Plugin supports multiple MailChimp mailing lists. All you have to do is sep
 
 = Support =
 
-You can get all the about the perfect Gwebpro Contact Form 7 MailChimp Extension information [here]http://www.gwebpro.com/gwebpro-mailchimp-cf7-extension, which is packed with notes, screenshots and tutorials replete with all the technical knowhow to help you go about installing the Plugin. Our Support page provides answers to all the technical hitches faced by users. For any kind of additional support or information, please drop us a mail at support@Gwebpro.com.
+You can get all the about the perfect Gwebpro Contact Form 7 MailChimp Extension information [here](http://www.gwebpro.com/gwebpro-mailchimp-cf7-extension), which is packed with notes, screenshots and tutorials replete with all the technical knowhow to help you go about installing the Plugin. Our Support page provides answers to all the technical hitches faced by users. For any kind of additional support or information, please drop us a mail at support@Gwebpro.com.
 
-Free version of Gwebpro Contact Form 7 MailChimp Extension sync upto 15 contacts in Mailchimp. If you need unlimited access, you need to purchase paid version from [here]http://www.gwebpro.com/gwebpro-mailchimp-cf7-extension. 
+Free version of Gwebpro Contact Form 7 MailChimp Extension sync upto 15 contacts in Mailchimp. If you need unlimited access, you need to purchase paid version from [here](http://www.gwebpro.com/gwebpro-mailchimp-cf7-extension). 
 
 == Installation ==
 
