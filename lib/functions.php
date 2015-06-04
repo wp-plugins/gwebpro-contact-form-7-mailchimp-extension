@@ -113,7 +113,7 @@ function gweb_cf7_chm()
 	update_option( 'cf7_mch_end','MTU=' );
 	if(phpversion()<'5.3.0')
 	{
-		wp_die('Please upgrade you PHP instalation.This plugin only works with 5.3.0 or above PHP version');
+		wp_die('Please upgrade you PHP installation.This plugin only works with 5.3.0 or above PHP version');
 	}
 }
 $end = get_option('cf7_mch_end');
@@ -201,7 +201,7 @@ function wpcf7_mch_subscribe($obj)
 					$Mailchimp->call('lists/subscribe', array(
 						'id'                => trim($listid),
 						'email'             => array('email'=>$email),
-						'merge_vars'        => array('FNAME'=>$name),
+						'merge_vars'        => $merge_vars,
 						'double_optin'      => false,
 						'update_existing'   => true,
 						'replace_interests' => false,
